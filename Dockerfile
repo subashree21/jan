@@ -1,4 +1,4 @@
 FROM ubuntu
 RUN apt-get update
-RUN apt-get install ngnix -y
-CMD ["ngnix", "g", "daemon off;"]
+RUN apt-get install nginx -y
+CMD ["nginx", "g", "daemon off;"]
